@@ -6,10 +6,8 @@
       <div class="col-lg-12">
         <div class="cta-content">
           <h2>{{.title}}</h2>
-          <a href="{{.buttonTarget | absURL }}" class="btn btn-primary mb-3">
-              Schedule your day
-          </a>
-          <p style="font-size: 12px;">or check out <a class="scroll-to" href="{{ $.Site.BaseURL }}{{ .priceLink }}">pricing plans</a></p>
+          <a href="{{.buttonLeftTarget | absURL }}" class="btn btn-primary mb-3">{{.buttonLeftText}}</a>
+          <a href="{{.buttonRightTarget | absURL }}" class="btn btn-primary mb-3">{{.buttonRightText}}</a>
         </div>
       </div>
     </div>

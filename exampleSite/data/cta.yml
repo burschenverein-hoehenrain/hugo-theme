@@ -1,6 +1,8 @@
 ---
 enable: true
-title: "Visit coHub for a day."
-buttonTarget: contact
-priceLink: "#priceLink"
+title: "Checkout us"
+buttonLeftTarget: https://instagram.com/
+buttonLeftText: "Instagram"
+buttonRightTarget: https://facebook.com/
+buttonRightText: "Facebook"
 ---
