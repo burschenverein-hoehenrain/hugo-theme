@@ -358,6 +358,6 @@ $(window).on("scroll", function () {
  }
  
  if ($("#map").length > 0) {
-   google.maps.event.addDomListener(window, "load", initialize);
+  addEventListener("load", initialize);
  }
  

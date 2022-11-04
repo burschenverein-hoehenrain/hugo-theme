@@ -180,4 +180,4 @@ function initialize() {
         title: 'stack'
     });
 }
-google.maps.event.addDomListener(window, 'load', initialize);
+addEventListener("load", initialize);
