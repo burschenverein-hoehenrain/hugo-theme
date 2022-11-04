@@ -177,7 +177,6 @@ $(window).on("scroll", function () {
    var map;
    var lat = $("#map").data("lat");
    var long = $("#map").data("long");
-   console.log(lat, long);
    var mapCenter = new google.maps.LatLng(lat, long);
    var style = [
     {
