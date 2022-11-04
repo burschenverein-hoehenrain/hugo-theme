@@ -17,9 +17,8 @@
       {{ range .galleryImage }}
         <div class="col-md-6">
           <div class="gallery-item">
-            <a href="{{ .image | absURL }}" data-source="{{ .image | absURL }}"
-                title="Exibhition 01">
-                <img src="{{ .image | absURL }}" alt="gallery-images">
+            <a href="{{ .image.url | absURL }}" data-source="{{ .image.url | absURL }}" title="{{ .image.title }}">
+                <img src="{{ .image.url | absURL }}" alt="gallery-images">
             </a>
           </div>
         </div>
